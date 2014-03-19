@@ -43,7 +43,7 @@ var getAllTweets = function(user, done) {
   search();
 };
 
-getAllTweets('FoxAtNight', function(err, tweets) {
+getAllTweets(config.account, function(err, tweets) {
   var total = tweets.length;
   var i = 1;
   async.eachLimit(tweets, 20, function(tweet, done) {
