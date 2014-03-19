@@ -1,0 +1,24 @@
+{
+  "name": "twitter-nuker",
+  "version": "0.0.1",
+  "description": "deletes all tweets on account except for statuses listed in keep",
+  "main": "nuke.js",
+  "dependencies": {
+    "async": "~0.2.10",
+    "twit": "~1.1.12"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Syfaro/Twitter-Nuker"
+  },
+  "author": "Syfaro",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/Syfaro/Twitter-Nuker/issues"
+  },
+  "homepage": "https://github.com/Syfaro/Twitter-Nuker"
+}
